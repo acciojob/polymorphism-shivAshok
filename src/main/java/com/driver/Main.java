@@ -15,8 +15,8 @@ return 1;
     }
     public static void main(String[] args){
         Product P=new Product();
-        P.product(1,2);
-        P.product(1,2,3);
-        P.product(1.2,1.3);
+        System.out.print(P.product(1,2));
+        System.out.print(P.product(1,2,3));
+        System.out.print(P.product(1.2,1.3));
     }
 }
