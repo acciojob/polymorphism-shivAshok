@@ -4,19 +4,19 @@ public class Main {
 
  public static  class Product{
         public int product(int x,int y){
-return 1;
+return x*y;
         }
         public int product(int x,int y,int z){
-            return 2;
+            return x*y*z;
         }
         public double product(double x,double y){
-            return 3.0;
+            return x*y;
         }
     }
     public static void main(String[] args){
         Product P=new Product();
-        System.out.print(P.product(1,2));
-        System.out.print(P.product(1,2,3));
-        System.out.print(P.product(1.2,1.3));
+        System.out.println(P.product(1,2));
+        System.out.println(P.product(1,2,3));
+        System.out.println(P.product(1.2,1.3));
     }
 }
